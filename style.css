@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#navtop
+{
+    background-color: black;
+    color: white !important;
+}
+#spotify
+{
+    padding-left: 6px;
+}
+#about
+{
+    color: white;
+}
+#mainrow
+{
+    background-color: black;
+    height: 64vh;
+    margin-top: 23px;
+    border-radius: 10px;
+}
+#box
+{
+height: 34px;
+width: 256px;
+background-color: white;
+margin-top: 14px;
+border-radius: 10px;
+}
+#box1col
+{
+    margin-top: 58px;
+    margin-left: -315px;
+}
+#box2col
+{
+    margin-top: 58px;
+    margin-left: -319px;
+}
+#firstblocks
+{
+margin-top: 47px;
+}
+#img img{
+    width: 224px;
+    margin-top: 45px 
+}
+
+@media screen and (max-width: 500px)
+{
+   
+}
+body
+{
+    background-color:  greenyellow;
+}
+#boximg img{
+    border-radius: 7px;
+    margin-top: 2px 
+}
+#text2 p{
+    position: relative;
+    left: 38px;
+    top: -4px 
+}
+#text2 i
+    {
+        top: -27px;
+        position: relative;
+        left: 49px;
+}
+#footer
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 24px;
+}
+.arjit 
+{
+    color: white;
+    margin-top: -25px;
+    position: relative;
+    top: -9px 
+}
+#progressbar
+{
+    width: 936px;
+   
+    height: 3px;
+}
+#plays
+{
+    color: white;
+}
+#icon i{
+   
+    margin-top: 23px;
+}
+#backward i{
+    margin-top: 23px;
+    position: relative;
+    margin-left: 89px;
+}
+#forward i{
+    margin-top: 23px;
+    position: relative;
+    right: 56px 
+}
+
+@media screen and (max-width: 767px) {
+   
+   
+    #img {
+        display: none;
+    }
+    
+   
+    #mainrow {
+        height: auto; 
+    }
+
+    #footer {
+        margin-top: 10px; 
+    }
+
+    #box  {
+        width: 106%; 
+    }
+    #progressbar
+    {
+        width: 100%; 
+    }
+    #text2 p {
+        left: 20px;
+    }
+
+    #text2 i {
+        left: 30px; 
+    }
+
+    #backward i {
+        margin-left: 40px;
+    }
+
+    #forward i {
+        right: 20px; 
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    #img {
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+   
+    #img {
+        display: none;
+    }
+    
+    
+    #mainrow {
+        height: auto; 
+    }
+
+    #footer {
+        margin-top: 10px; 
+        height: 100px; 
+    }
+
+    #progressbar {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    #plays {
+        margin-top: 10px; 
+    }
+
+    #backward i,
+    #icon i,
+    #forward i {
+        margin-top: 10px; 
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    
+    #img {
+        display: none;
+    }
+    
+   
+    #mainrow {
+        height: auto; 
+    }
+
+    #footer {
+        margin-top: 21px; 
+        height: 100px; 
+    }
+
+    #progressbar {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+    #plays {
+        margin-top: 10px; 
+    }
+
+    
+    #backward i,
+    #icon i,
+    #forward i {
+        margin-top: 10px; 
+        margin-left: 3px;
+    }
+    #forward i
+    {
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
